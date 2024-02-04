@@ -1,0 +1,38 @@
+*{
+    color: black;
+}
+
+
+
+.negative li:hover{
+    background-color: gray;
+}
+.negative a:hover{
+    color: red;
+}
+
+.con{
+    display: flex;
+    gap: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type:none;
+}
+
+.negative{
+    margin-top: 4px;
+    margin-left: -14px;
+    border: 1px solid black;
+    /* padding: 10px; */
+    display: none;
+    padding-left: 0;
+}
+
+ul li:hover> ul{
+    display: block;
+}
